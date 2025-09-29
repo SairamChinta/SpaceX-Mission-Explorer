@@ -2,7 +2,7 @@
 
 A React + Next.js + TypeScript app that lists SpaceX launches using the SpaceX public API (v4). Built with TailwindCSS and Zustand for state management. Includes search (debounced), year filter, success-only toggle, favorites (localStorage), details modal, responsive & accessible UI, and theme toggle (dark/light).
 
-Live demo:
+Live demo: ` https://space-x-mission-explorer-ten.vercel.app/ `
 
 ## Features
 - Browse and search launches (debounced input).
@@ -29,13 +29,13 @@ cd spacex-mission-explorer
 npm install
 
 npm run dev
-# app runs on http://localhost:3000
+### app runs on http://localhost:3000
 
-# for checking test
+## for checking test
 npm run test
 
 
-Project structure
+## Project structure
 src/app — Next.js app entry points and global styles
 
 src/components — UI components (Navbar, MissionList, Card, Filters, Modal, etc.)
